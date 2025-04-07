@@ -5,7 +5,7 @@ import { Table, Button } from 'reactstrap';
 const CharacterTable = ({ personajes, onEdit, onDelete }) => {
   // Maneja un error si la imagen no se puede cargar
   const handleImageError = (e) => {
-    e.target.src = "/images/default.jpg"; // Imagen por defecto
+    e.target.src = "/images/monokuma.jpg"; // Imagen por defecto
   };
 
   return (
